@@ -2,10 +2,10 @@
 
 ## Repo
  - Code and Docs cleanup (this is very hacky right now)
- - Concept explanation and simple impelmentation examples
+ - Concept explanation and simple implementation examples
 
 ## Vanilla Sampler
- - Repition penalties (DRY, Frequency, etc)
+ - Repetition penalties (DRY, Frequency, etc)
  - min_p
 
 ## Entropy Sampler
@@ -17,7 +17,7 @@
  - Parallel CoT Attenion Masks
 
 ## Generation
- - Genration loop does not properly handle batching of different sized inputs, fix
+ - Generation loop does not properly handle batching of different sized inputs, fix
  - Batched Best of N based on sampler output
  - Parallel CoT (Batched) Generation
  - Captain Planet entropy from the base model when we hit entropy collapse
@@ -28,13 +28,13 @@
 
 ## Server
  - OpenAI compat server (use sglang impl?)
- - continious batching
+ - continuous batching
 
 ## Evals
  - Set up eval suite
    - Eluther eval harness
    - OAI simple evals
    - EQ Bench?
-   - Berkley function bench?
+   - Berkeley function bench?
    - swe-bench?
    - aider?
