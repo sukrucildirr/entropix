@@ -66,7 +66,7 @@ def main():
       case "mmlu_YO-NG":
         return MMLUEval(num_examples=10 if debug else None, language="YO-NG")
       case _:
-        raise Exception(f"Unrecoginized eval type: {eval_name}")
+        raise Exception(f"Unrecognized eval type: {eval_name}")
 
   evals = {
     eval_name: get_evals(eval_name)
