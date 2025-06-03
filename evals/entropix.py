@@ -69,7 +69,7 @@ def main():
       #     grader_model=grading_sampler, num_examples=10 if debug else 4326
       #   )
       case _:
-        raise Exception(f"Unrecoginized eval type: {eval_name}")
+        raise Exception(f"Unrecognized eval type: {eval_name}")
 
   evals = {
     eval_name: get_evals(eval_name)
