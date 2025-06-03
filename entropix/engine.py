@@ -27,7 +27,7 @@ Prefix = Any
 
 # Accelerator representation of tokens.
 DeviceTokens = Any
-# Cpus asscociated with the mesh.
+# Cpus associated with the mesh.
 CpuDevices = Any
 
 
