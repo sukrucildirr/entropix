@@ -123,7 +123,7 @@ def sample(
       # jax.debug.print("LEHV Naked Varent: {}", naked_varent)
       # jax.debug.print("LEHV Scaffold Ent: {}\n", scaffold_ent)
       # jax.debug.print("LEHV Scaffold Varent: {}\n", scaffold_varent)
-      # TODO(xjdr): We need to do a differnt version of tree search here with constant return dimensions
+      # TODO(xjdr): We need to do a different version of tree search here with constant return dimensions
       return new_token, state
 
     # High Entropy, High Varentropy: "resampling in the mist"
